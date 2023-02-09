@@ -4,8 +4,8 @@ simple login form with hacker green animation
 
 ## Screenshots
 
-![](./imgs/screenshot.png)
-![](./imgs/screenshot2.png)
+![](./imgs/screenshot_1.png)
+![](./imgs/screenshot_2.png)
 
 ## Live Preview
 
