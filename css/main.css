@@ -38,7 +38,7 @@ main {
 }
 .box {
   aspect-ratio: 1;
-  border: 1px solid var(--clr);
+  border: 1px solid rgba(3, 140, 127, 0.3);
   transition: 300ms;
   -webkit-transition: 300ms;
   -moz-transition: 300ms;
@@ -60,13 +60,15 @@ main {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  background-color: #222;
+  background-color: #00251f;
   padding: 3rem;
-  border-radius: 15px;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(3, 140, 127, 0.6),
+    0 0 15px rgba(3, 140, 127, 0.6);
 }
 .form_holder #submit {
   cursor: pointer;
