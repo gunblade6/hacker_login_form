@@ -17,7 +17,7 @@
   <body>
     <main>
       <article class="form_holder">
-        <form action="./">
+        <form novalidate action="https:\\mohamed-dev.netlify.app">
           <h1>Sign In</h1>
           <div class="inputBox">
             <input type="text" id="username" required />
@@ -27,11 +27,12 @@
             <input type="password" id="password" required />
             <i>Password</i>
           </div>
+          <div class="errorHolder"></div>
           <div class="links">
             <a href="./">Forgot Password</a>
             <a href="./">Sign Up</a>
           </div>
-          <input type="submit" value="Login" id="submit" />
+          <input type="submit" class="disabled" value="Login" id="submit" />
         </form>
       </article>
     </main>
