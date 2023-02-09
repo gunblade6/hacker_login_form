@@ -7,13 +7,30 @@
     <!-- css -->
     <link rel="stylesheet" href="./css/main.css" />
     <title>Hacker login form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto+Mono:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <main>
       <article class="form_holder">
         <form action="./">
-          <input type="text" id="username" placeholder="Username" />
-          <input type="password" id="password" placeholder="Password" />
+          <h1>Sign In</h1>
+          <div class="inputBox">
+            <input type="text" id="username" required />
+            <i>Username</i>
+          </div>
+          <div class="inputBox">
+            <input type="password" id="password" required />
+            <i>Password</i>
+          </div>
+          <div class="links">
+            <a href="./">Forgot Password</a>
+            <a href="./">Sign Up</a>
+          </div>
           <input type="submit" value="Login" id="submit" />
         </form>
       </article>
