@@ -3,5 +3,5 @@ simple login form with hacker green animation
 
 ## live website
 
-(live preview)[https:\\hackerloginform.netlify.app]
+[live preview](https:\\hackerloginform.netlify.app)
 
